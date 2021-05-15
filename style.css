@@ -7,11 +7,8 @@ body{
     margin: 0px;
     color: black;
 }
-#start{
-    font-size: 15px;
-}
-#status, #number_of_objects, #start{
-    font-size: 15px;
+#status, #number_of_objects, #start, #object_found{
+    font-size: 10px;
 }
 .copy_right_footer{
     position: fixed;
@@ -27,4 +24,7 @@ canvas{
     border-radius: 10px;
     margin-top: 90px;
     box-shadow: 5px 5px 5px white;
+}
+#span{
+    font-size: 15px;
 }
